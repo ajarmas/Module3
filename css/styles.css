@@ -13,8 +13,22 @@ Burgundy            #772E25
 /* GLOBAL STYLES
 -------------------------- */
 
+html {
+    box-sizing: border-box;
+}
+
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+
+html, body {
+    height: 100%;
+}
+
+
 body {
     background: #fbf5ee;
+    margin: 0;
 }
 
 /* links */
@@ -93,3 +107,17 @@ footer {
     background: #283d3b;
     color: #fbf5ee;
 }
+
+.socials {
+    list-style-type: none;
+    padding: 0;
+}
+
+.socials li {
+    display: inline-block;   
+}
+
+.socials img {
+    width: 32px;
+}
+
